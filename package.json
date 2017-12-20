@@ -1,0 +1,19 @@
+{
+  "name": "es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-index": "node ./scripts/setupElasticsearch.js",
+    "setup-mapping": "node ./scripts/setupMapping.js",
+    "delete-index": "node ./scripts/deleteIndex.js",
+    "seed": "node ./scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^14.0.0",
+    "random-name": "^0.1.2"
+  }
+}
